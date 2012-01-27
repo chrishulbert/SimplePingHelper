@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D4CB64814C6754200875077 /* SimplePingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CB64714C6754200875077 /* SimplePingHelper.m */; };
+		8D54207F14C650C600B3689B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D54207E14C650C600B3689B /* UIKit.framework */; };
+		8D54208114C650C600B3689B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D54208014C650C600B3689B /* Foundation.framework */; };
+		8D54208314C650C600B3689B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D54208214C650C600B3689B /* CoreGraphics.framework */; };
+		8D54208914C650C600B3689B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D54208714C650C600B3689B /* InfoPlist.strings */; };
+		8D54208B14C650C600B3689B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D54208A14C650C600B3689B /* main.m */; };
+		8D54208F14C650C600B3689B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D54208E14C650C600B3689B /* AppDelegate.m */; };
+		8D54209214C650C600B3689B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D54209114C650C600B3689B /* FirstViewController.m */; };
+		8D5420A014C650C600B3689B /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D54209E14C650C600B3689B /* FirstViewController.xib */; };
+		8D5420AC14C651E700B3689B /* Radio-Tower@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D5420A914C651E700B3689B /* Radio-Tower@2x.png */; };
+		8D5420AD14C651E700B3689B /* Radio-Tower.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D5420AA14C651E700B3689B /* Radio-Tower.png */; };
+		8D5420AE14C651E700B3689B /* PP Icons.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8D5420AB14C651E700B3689B /* PP Icons.txt */; };
+		8D5420B714C6681000B3689B /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5420B614C6681000B3689B /* SimplePing.m */; };
+		8D5420B914C66A3000B3689B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5420B814C66A3000B3689B /* SystemConfiguration.framework */; };
+		8D5420BB14C66A5D00B3689B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5420BA14C66A5D00B3689B /* CFNetwork.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D4CB64614C6754200875077 /* SimplePingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePingHelper.h; sourceTree = "<group>"; };
+		8D4CB64714C6754200875077 /* SimplePingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePingHelper.m; sourceTree = "<group>"; };
+		8D54207A14C650C600B3689B /* PingTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D54207E14C650C600B3689B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8D54208014C650C600B3689B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8D54208214C650C600B3689B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8D54208614C650C600B3689B /* PingTester-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PingTester-Info.plist"; sourceTree = "<group>"; };
+		8D54208814C650C600B3689B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D54208A14C650C600B3689B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D54208C14C650C600B3689B /* PingTester-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PingTester-Prefix.pch"; sourceTree = "<group>"; };
+		8D54208D14C650C600B3689B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8D54208E14C650C600B3689B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8D54209014C650C600B3689B /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		8D54209114C650C600B3689B /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		8D54209F14C650C600B3689B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
+		8D5420A914C651E700B3689B /* Radio-Tower@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Radio-Tower@2x.png"; sourceTree = "<group>"; };
+		8D5420AA14C651E700B3689B /* Radio-Tower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Radio-Tower.png"; sourceTree = "<group>"; };
+		8D5420AB14C651E700B3689B /* PP Icons.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "PP Icons.txt"; sourceTree = "<group>"; };
+		8D5420B514C6681000B3689B /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
+		8D5420B614C6681000B3689B /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
+		8D5420B814C66A3000B3689B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8D5420BA14C66A5D00B3689B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D54207714C650C600B3689B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5420BB14C66A5D00B3689B /* CFNetwork.framework in Frameworks */,
+				8D5420B914C66A3000B3689B /* SystemConfiguration.framework in Frameworks */,
+				8D54207F14C650C600B3689B /* UIKit.framework in Frameworks */,
+				8D54208114C650C600B3689B /* Foundation.framework in Frameworks */,
+				8D54208314C650C600B3689B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D54206F14C650C600B3689B = {
+			isa = PBXGroup;
+			children = (
+				8D5420BA14C66A5D00B3689B /* CFNetwork.framework */,
+				8D5420B814C66A3000B3689B /* SystemConfiguration.framework */,
+				8D54208414C650C600B3689B /* PingTester */,
+				8D54207D14C650C600B3689B /* Frameworks */,
+				8D54207B14C650C600B3689B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D54207B14C650C600B3689B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D54207A14C650C600B3689B /* PingTester.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D54207D14C650C600B3689B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D54207E14C650C600B3689B /* UIKit.framework */,
+				8D54208014C650C600B3689B /* Foundation.framework */,
+				8D54208214C650C600B3689B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D54208414C650C600B3689B /* PingTester */ = {
+			isa = PBXGroup;
+			children = (
+				8D54208D14C650C600B3689B /* AppDelegate.h */,
+				8D54208E14C650C600B3689B /* AppDelegate.m */,
+				8D54209014C650C600B3689B /* FirstViewController.h */,
+				8D54209114C650C600B3689B /* FirstViewController.m */,
+				8D5420B514C6681000B3689B /* SimplePing.h */,
+				8D5420B614C6681000B3689B /* SimplePing.m */,
+				8D4CB64614C6754200875077 /* SimplePingHelper.h */,
+				8D4CB64714C6754200875077 /* SimplePingHelper.m */,
+				8D5420A914C651E700B3689B /* Radio-Tower@2x.png */,
+				8D5420AA14C651E700B3689B /* Radio-Tower.png */,
+				8D5420AB14C651E700B3689B /* PP Icons.txt */,
+				8D54209E14C650C600B3689B /* FirstViewController.xib */,
+				8D54208514C650C600B3689B /* Supporting Files */,
+			);
+			path = PingTester;
+			sourceTree = "<group>";
+		};
+		8D54208514C650C600B3689B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D54208614C650C600B3689B /* PingTester-Info.plist */,
+				8D54208714C650C600B3689B /* InfoPlist.strings */,
+				8D54208A14C650C600B3689B /* main.m */,
+				8D54208C14C650C600B3689B /* PingTester-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D54207914C650C600B3689B /* PingTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D5420A614C650C600B3689B /* Build configuration list for PBXNativeTarget "PingTester" */;
+			buildPhases = (
+				8D54207614C650C600B3689B /* Sources */,
+				8D54207714C650C600B3689B /* Frameworks */,
+				8D54207814C650C600B3689B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PingTester;
+			productName = PingTester;
+			productReference = 8D54207A14C650C600B3689B /* PingTester.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D54207114C650C600B3689B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 8D54207414C650C600B3689B /* Build configuration list for PBXProject "PingTester" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8D54206F14C650C600B3689B;
+			productRefGroup = 8D54207B14C650C600B3689B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D54207914C650C600B3689B /* PingTester */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D54207814C650C600B3689B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D54208914C650C600B3689B /* InfoPlist.strings in Resources */,
+				8D5420A014C650C600B3689B /* FirstViewController.xib in Resources */,
+				8D5420AC14C651E700B3689B /* Radio-Tower@2x.png in Resources */,
+				8D5420AD14C651E700B3689B /* Radio-Tower.png in Resources */,
+				8D5420AE14C651E700B3689B /* PP Icons.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D54207614C650C600B3689B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D54208B14C650C600B3689B /* main.m in Sources */,
+				8D54208F14C650C600B3689B /* AppDelegate.m in Sources */,
+				8D54209214C650C600B3689B /* FirstViewController.m in Sources */,
+				8D5420B714C6681000B3689B /* SimplePing.m in Sources */,
+				8D4CB64814C6754200875077 /* SimplePingHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D54208714C650C600B3689B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D54208814C650C600B3689B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8D54209E14C650C600B3689B /* FirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D54209F14C650C600B3689B /* en */,
+			);
+			name = FirstViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D5420A414C650C600B3689B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8D5420A514C650C600B3689B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D5420A714C650C600B3689B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PingTester/PingTester-Prefix.pch";
+				INFOPLIST_FILE = "PingTester/PingTester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8D5420A814C650C600B3689B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PingTester/PingTester-Prefix.pch";
+				INFOPLIST_FILE = "PingTester/PingTester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D54207414C650C600B3689B /* Build configuration list for PBXProject "PingTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D5420A414C650C600B3689B /* Debug */,
+				8D5420A514C650C600B3689B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D5420A614C650C600B3689B /* Build configuration list for PBXNativeTarget "PingTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D5420A714C650C600B3689B /* Debug */,
+				8D5420A814C650C600B3689B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D54207114C650C600B3689B /* Project object */;
+}
